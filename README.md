@@ -37,7 +37,7 @@ A modern movie discovery application built with React, TypeScript, and Tailwind 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ITSSPHINX/Sphinx-Movie-Finder.git
+   git clone https://github.com/HilSavaliya/Sphinx-Movie-Finder.git
    cd Sphinx-Movie-Finder
    ```
 
@@ -104,7 +104,7 @@ src/
    ```
 2. Add to `package.json`:
    ```json
-   "homepage": "https://ITSSPHINX.github.io/Sphinx-Movie-Finder",
+   "homepage": "https://HilSavaliya.github.io/Sphinx-Movie-Finder",
    "scripts": {
      "deploy": "gh-pages -d dist"
    }
