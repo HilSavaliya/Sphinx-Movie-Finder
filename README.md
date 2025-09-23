@@ -2,7 +2,7 @@
 
 A modern movie discovery application built with React, TypeScript, and Tailwind CSS. Browse, search, and explore movies from The Movie Database (TMDB) API with a beautiful, responsive interface.
 
-![Project Screenshot](https://image.tmdb.org/t/p/w500/placeholder-movie.jpg)
+
 
 ## Features
 
