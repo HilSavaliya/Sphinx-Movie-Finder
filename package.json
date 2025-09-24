@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ITSSPHINX.github.io/Sphinx-Movie-Finder",
+  "homepage": "https://hilsavaliya.github.io/Sphinx-Movie-Finder",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
