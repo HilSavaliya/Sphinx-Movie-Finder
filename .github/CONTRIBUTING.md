@@ -51,7 +51,7 @@ When creating a pull request, please:
 
 To set up your development environment:
 
-1. Clone the repository: `git clone https://github.com/ITSSPHINX/Sphinx-Movie-Finder.git`
+1. Clone the repository: `git clone https://github.com/HilSavaliya/Sphinx-Movie-Finder.git`
 2. Install dependencies: `npm install`
 3. Set up environment variables by copying `.env.example` to `.env.local` and adding your TMDB API key
 4. Start the development server: `npm run dev`
