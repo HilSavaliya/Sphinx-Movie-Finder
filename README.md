@@ -2,7 +2,7 @@
 
 A modern movie discovery application built with React, TypeScript, and Tailwind CSS. Browse, search, and explore movies from The Movie Database (TMDB) API with a beautiful, responsive interface.
 
-
+![Project Screenshot](https://image.tmdb.org/t/p/w500/placeholder-movie.jpg)
 
 ## Features
 
@@ -87,9 +87,20 @@ src/
 
 ### Vercel (Recommended)
 
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically on every push
+1. Install the Vercel CLI:
+   ```bash
+   npm i -g vercel
+   ```
+2. Push your code to GitHub
+3. Connect your repository to Vercel:
+   - Go to vercel.com and sign up
+   - Click "New Project"
+   - Select your GitHub repository
+   - Vercel will automatically detect it's a React project
+4. Configure environment variables (if needed):
+   - Go to your project Settings > Environment Variables
+   - Add any required variables like your TMDB API key
+5. Deploy automatically on every push to your repository
 
 ### Netlify
 
@@ -102,14 +113,27 @@ src/
    ```bash
    npm install --save-dev gh-pages
    ```
-2. Add to `package.json`:
+2. Make sure your `package.json` has the correct homepage URL:
    ```json
    "homepage": "https://HilSavaliya.github.io/Sphinx-Movie-Finder",
    "scripts": {
      "deploy": "gh-pages -d dist"
    }
    ```
-3. Run `npm run deploy`
+3. Build the project:
+   ```bash
+   npm run build
+   ```
+4. Deploy to GitHub Pages:
+   ```bash
+   npm run deploy
+   ```
+5. Configure GitHub Pages:
+   - Go to your repository Settings > Pages
+   - Under "Build and deployment", select "Deploy from a branch"
+   - Select "main" and "/ (root)"
+   - Click Save
+6. Add a `.nojekyll` file to your root directory to prevent GitHub Pages from processing your files
 
 ## Environment Variables
 
